@@ -6,8 +6,11 @@ body {
 #page-home {
     width: 100vw;
     height: 100vh;
-    background: url('../assets/bg.svg') no-repeat;
+    background: url('../assets/bg.svg') no-repeat center center;
     background-size: cover;
-    
 }
 
+button {
+    font-family: 'Bebas Neue', cursive;
+
+}
