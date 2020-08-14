@@ -1,16 +1,58 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;   
 }
 
+header {
+    padding: 60px 80px;
+}
 
-#page-home {
+.caixa {
     width: 100vw;
     height: 100vh;
     background: url('../assets/bg.svg') no-repeat center center;
-    background-size: cover;
+    background-size: cover;    
+}
+
+nav{
+     position: absolute; 
+     width: 940px;
+     
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /*espaço à esquerda*/
+}
+
+nav a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 150px;
+    font-weight: 100;
+    text-shadow: 3px 7px 1px #1665C0;
+    
+}
+
+span {
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 button {
     font-family: 'Bebas Neue', cursive;
 
+}
+
+footer {
+    text-align: center;
 }
